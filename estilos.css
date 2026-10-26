@@ -1,0 +1,77 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff4e6;
+    color: #4b2e1e;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #8b4513;
+    color: white;
+    padding: 35px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+main h2 {
+    color: #8b4513;
+    font-size: 28px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #d6c3ad;
+}
+
+.tarjeta h3 {
+    color: #8b4513;
+    font-size: 24px;
+}
+
+.tarjeta p {
+    margin-bottom: 25px;
+}
+
+.tarjeta a {
+    background-color: #8b4513;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.tarjeta a:hover {
+    background-color: #d9a066;
+    color: #4b2e1e;
+}
+
+footer {
+    background-color: #8b4513;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
